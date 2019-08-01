@@ -71,7 +71,7 @@ export default new Vuex.Store({
     populateFromAPI (context, PHRASE_COUNT=5) {
       return new Promise ((resolve, reject) => {
         for (let i = 0; i < PHRASE_COUNT; i++) {
-          axios.get('http://badwritingapi.herokuapp.com/snippets/random.json')
+          axios.get('https://badwritingapi.herokuapp.com/snippets/random.json')
             .then(response => {
               context.commit('addPhraseObject', response.data)
             })
@@ -83,7 +83,7 @@ export default new Vuex.Store({
 
     retrieveRandomFromAPI (context) {
       return new Promise((resolve, reject) => {
-        axios.get('http://badwritingapi.herokuapp.com/snippets/random.json')
+        axios.get('https://badwritingapi.herokuapp.com/snippets/random.json')
           .then(response => {
             context.commit('addPhraseObject', response.data)
             resolve()

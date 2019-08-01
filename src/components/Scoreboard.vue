@@ -1,5 +1,5 @@
 <template>
-  <v-layout align-center ml-3 justify-space-around fill-height column id='scoreboard' ref='scoreboard'>
+  <v-layout align-center ml-3 mb-3 justify-space-around fill-height column id='scoreboard' ref='scoreboard'>
     <div id='score-main'>
       <div>Score</div>
       <div><h2>{{ points }}</h2></div>
@@ -31,7 +31,6 @@
   padding: 1.25rem 0.5rem 1rem 0.5rem;
   border: 2px solid #abacc5;
   box-shadow: inset 2px 2px 6px rgba(255,255,255,0.3), inset -2px -2px 6px rgba(255,255,255,0.3);
-  margin-bottom: 2rem;
 }
 
 #score-main {
