@@ -3,20 +3,18 @@
     <v-layout row wrap id='game-main'>
 
     <!-- <transition name='fade1'> -->
-    <v-layout v-if='start' align-center justify-center column>
-      <div id='game-info'>
+    <v-layout align-center justify-center row wrap>
+      <div v-if='start' id='game-info'>
         <p>Find bad academic writing. Then blow it up.</p>
         <div style='text-align: center'>
           <v-btn type='button' fab color='success' v-on:click='initializeGame'>Go</v-btn>
-          <router-link to="/about"><v-btn type='button' fab color='warning'><span style='font-size:1.25rem'>?</span></v-btn></router-link>
+          <router-link to="/about"><v-btn type='button' flat color='warning'><span>Tell me more</span></v-btn></router-link>
         </div>
       </div>
     </v-layout>
     <!-- </transition> -->
 
-    <div v-if='gameInProgress && !start'>
-      <AsyncFloatingPhrase></AsyncFloatingPhrase>
-    </div>
+    <AsyncFloatingPhrase v-if='gameInProgress && !start'></AsyncFloatingPhrase>
 
     </v-layout>
     <v-layout justify-space-around row id='controls'>

@@ -1,5 +1,5 @@
 <template>
-  <v-card class='game-history'>
+  <v-card scrollable id='game-history'>
     <v-card-title class='headline'>
       {{ title }}
     </v-card-title>
@@ -24,6 +24,10 @@
 </template>
 
 <style scoped>
+
+#game-history {
+  max-height: 400px;
+}
 
 td {
   text-align: left;

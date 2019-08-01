@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.f887814cefbbf39a85c70778650d7822.js"
+  "/precache-manifest.3abada3fc1b4b8e91580be8ab0fbe5c5.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "blowupwords"});

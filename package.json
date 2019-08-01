@@ -42,5 +42,9 @@
     "writing",
     "game"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clearthecity/toobright.git"
+  },
   "license": "ISC"
 }

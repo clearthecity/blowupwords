@@ -60,7 +60,7 @@ export default {
       this.phraseText = newPhraseObj.text
       this.phraseID = newPhraseObj.id
       this.phraseProblem = newPhraseObj.problem
-      this.randomXCoords = Math.floor(Math.random() * 400)
+      this.randomXCoords = Math.floor(Math.random() * 300)
       this.randomYCoords = Math.floor(Math.random() * 400)
       this.randomColor = this.pickRandomColor()
       this.svgFilter = ''

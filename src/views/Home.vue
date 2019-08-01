@@ -13,7 +13,7 @@
 <script>
 
 export default {
-  name: 'home',
+  name: 'Home',
   components: {
     Game: () => import('@/components/Game.vue'),
     Scoreboard: () => import('@/components/Scoreboard.vue'),

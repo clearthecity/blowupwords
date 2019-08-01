@@ -2,7 +2,7 @@
   <v-container id="about">
     <div>
       <h2>What?</h2>
-      <p>This is a game (sort of) about identifying sloppy writing, in the form of <a href='https://www.txstate.edu/philosophy/resources/fallacy-definitions/Unwarranted-Generalization.html'>generalizations</a> and <a href='https://writingcenter.unc.edu/cliches/'>cliches</a>, and <a href='https://writingcenter.unc.edu/tips-and-tools/gender-inclusive-language/'>gender-biased language</a>.</p>
+      <p>This is a game (sort of) about identifying sloppy writing, in the form of <a href='https://www.txstate.edu/philosophy/resources/fallacy-definitions/Unwarranted-Generalization.html'>generalizations</a>, wordiness, imprecise historical markers, <a href='https://writingcenter.unc.edu/cliches/'>cliches</a>, and <a href='https://writingcenter.unc.edu/tips-and-tools/gender-inclusive-language/'>gender-biased language</a>.</p>
     </div>
     <div>
       <h2>Why?</h2>
@@ -20,15 +20,6 @@
 
 div {
   margin-bottom: 1rem;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-  text-decoration-style: dotted;
 }
 
 </style>
