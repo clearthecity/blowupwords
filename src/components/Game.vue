@@ -2,17 +2,15 @@
   <v-flex xs12 sm10 id='game'>
     <v-layout row wrap id='game-main'>
 
-    <!-- <transition name='fade1'> -->
     <v-layout align-center justify-center row wrap>
       <div v-if='start' id='game-info'>
-        <p>Find bad academic writing. Then blow it up.</p>
+        <p style='font-size:1.25rem'>Find bad academic writing. Then blow it up.</p>
         <div style='text-align: center'>
           <v-btn type='button' fab color='success' v-on:click='initializeGame'>Go</v-btn>
           <router-link to="/about"><v-btn type='button' flat color='warning'><span>Tell me more</span></v-btn></router-link>
         </div>
       </div>
     </v-layout>
-    <!-- </transition> -->
 
     <AsyncFloatingPhrase v-if='gameInProgress && !start'></AsyncFloatingPhrase>
 
@@ -58,13 +56,6 @@
 }
 #vol-text:hover {
   color: #ee44aa;
-}
-
-.fade1-enter-active, .fade1-leave-active {
-  transition: opacity 1s;
-}
-.fade1-enter, .fade1-leave-to {
-  opacity: 0;
 }
 
 </style>

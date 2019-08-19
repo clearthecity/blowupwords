@@ -1,6 +1,6 @@
 <template>
   <div class='fp-loading' style='color:black'>
-  <v-progress-circular indeterminate></v-progress-circular>
+  ... <!-- <v-progress-circular indeterminate></v-progress-circular> -->
   </div>
 </template>
 
