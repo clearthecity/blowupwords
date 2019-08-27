@@ -83,11 +83,13 @@ export default {
                 this.setTimer()
               }
             }, (error) => {
+              // eslint-disable-next-line
               console.log(error)
           })
 
          }, (error) => {
            this.load_error = true
+           // eslint-disable-next-line
            console.log(error)
          })
     },
