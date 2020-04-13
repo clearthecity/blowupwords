@@ -21,6 +21,7 @@ Vue.mixin({
         promise.then(() => {
           // nothing to see here
         }, (error) => {
+          /* eslint-disable no-alert, no-console */
           console.log(error)
         })
       }
